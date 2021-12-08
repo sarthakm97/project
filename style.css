@@ -86,7 +86,7 @@ nav #images{
 
      
 }
-p{
+.text {
    display: flex;
    justify-content: center;
    padding: 5px;
@@ -99,38 +99,58 @@ p{
 
 .story{
   
-   margin: 50px;
+   margin-bottom: 15px;
    display: flex;
    
 }
 .first{
-   border: 2px solid #FFFFFF;
+   border: 1px solid #FFFFFF;
+   
+   background-color: #FFFFFF;
 
 }
 .first img{
    display: flex;
    width: 350px;
    height: 300px;
+   border-radius: 5px;
 }
 
 
 .top{
-   border: 2px solid #FFFFFF;
    
+   border: 1px solid #FFFFFF;
+   padding: 0;
    display: flex;
    flex-direction: column;
-   margin: 50px;
+   width: 350px;
+   background-color: white;
+   font-weight: 700;
+    
+}
 
-
-
-
+.top h3{
+   margin-left: 20px;
 }
 
 .top img{
-   margin: 8px;
+   /* display: flex; */
    width: 100px;
    height: 100px;
+   border-radius: 5px;
+
 }
+
+ul p{
+   
+   
+   padding: 5px;
+   margin-top: -75px;
+   margin-left: 150px;
+   font-size: 25px;
+
+}
+
 
 
 
